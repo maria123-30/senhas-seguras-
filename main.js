@@ -6,7 +6,7 @@ const botoes = document.querySelectorAll('.parametro-senha__botao');
 
 console.log(botoes)
 function aumentaTamanho(){
-    if (tamanhoSenha < 20){
+    if (tamanhoSenha < 20)
        tamanhoSenha = tamanhoSenha+1;
     numeroSenha.textContent = tamanhoSenha;
 }
