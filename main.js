@@ -20,3 +20,10 @@ function diminuiTamanho(){
     }
     numeroSenha.textContent = tamanhoSenha;
 }
+
+
+const campoSenha = document.querySelector('#campo-senha'):
+
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWZYZ';
+
+campoSenha.value = letrasMaiusculas;
