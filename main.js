@@ -1,12 +1,12 @@
-const numeroSenha = document.querySelector('.parametro-senha__texto');
+const numeroSenha = document. querySelector('.parametro-senha__texto');
 let tamanhoSenha = 12;
 numeroSenha.textContent = tamanhoSenha;
 
 const botoes = document.querySelectorAll('.parametro-senha__botao');
 
-console.log(botoes)
-function aumentaTamanho(){
-    if (tamanhoSenha < 20)
+botoes[0].onclick = diminuitamanho;
+
+function diminuiTamanho(){
        tamanhoSenha = tamanhoSenha+1;
     numeroSenha.textContent = tamanhoSenha;
 }
